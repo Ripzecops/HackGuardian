@@ -1,0 +1,43 @@
+# PHP
+/vendor/
+/node_modules/
+
+# Composer
+composer.lock
+composer.phar
+
+# Laravel & Symfony
+.env
+.env.*
+.phpunit.result.cache
+/storage/
+/bootstrap/cache/
+
+# IDEs and editors
+*.sublime-workspace
+*.sublime-project
+*.idea/
+*.vscode/
+*.DS_Store
+
+# Logs
+*.log
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Cache
+.cache/
+
+# Misc
+*.bak
+*.tmp
+
+# Database
+*.sqlite
+*.sql
+
+# Other
+/public/css/*.map
+/public/js/*.map
