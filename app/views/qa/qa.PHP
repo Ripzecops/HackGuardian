@@ -1,3 +1,3 @@
 <?php
 require_once __DIR__ . '/../../../config/config.php';
-redirect('index.php');
+redirect('app/views/dashboard/qa.php');
